@@ -1,12 +1,12 @@
 console.log("hello World!");
 
 // add variable for quiz start button to use in render quiz function
-var quizStartButton = document.querySelector("#startQuiz");
+var quizStart = document.querySelector("#start");
 // variables to clear rest of screen
 var timer = document.querySelector("timer");
-
+var headerQuestions = document.querySelector("h1");
 // vars for answers
-
+var pAnswers = document.querySelector("p");
 // insert questions array
 var quizQuestions = [
   {
@@ -59,7 +59,7 @@ var quizQuestions = [
 // }
 
 function renderQuiz() {
-  quizStartButton.addEventListener("click"),
+  quizStart.addEventListener("click"),
     function () {
       console.log("ive been clickedd!");
     };
