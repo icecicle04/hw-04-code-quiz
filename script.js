@@ -58,10 +58,8 @@ var quizQuestions = [
 //     var questionOne = ;
 // }
 
-function renderQuiz() {
-  quizStart.addEventListener("click"),
-    function () {
-      console.log("ive been clickedd!");
-    };
-}
-// clear current content on screen
+quizStart.addEventListener("click", function (event) {
+  event.preventDefault();
+  //   console.log("i've been clicked");
+  // clear current content on screen
+});
