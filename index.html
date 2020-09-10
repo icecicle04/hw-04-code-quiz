@@ -29,18 +29,34 @@
       <div class="navbar w-100 dual-collapse2">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" id="timer" href="#">Time : 0</a>
+            <a class="nav-link" id="timer">Time : 0</a>
           </li>
         </ul>
       </div>
     </nav>
-    <container class="container col-sm-12">
-      <row class="col-sm-12" style="justify-content: center">
+    <div class="container">
+      <row class="col-sm-12">
         <div id="questionHeader">
           <h1>Coding Quiz Challenge</h1>
         </div>
       </row>
-    </container>
+      <row>
+        <div class="col-sm-12" id="questionBlock">
+          <p>
+            Try to answer the following code related questions within the time
+            limit. Keep in mind that incorrect answers will penalize your
+            score/time by ten seconds!
+          </p>
+        </div>
+      </row>
+      <row class="col-sm-12">
+        <div class="buttonCentered">
+          <button type="button" class="btn btn-primary" id="startQuiz">
+            Start Quiz
+          </button>
+        </div>
+      </row>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

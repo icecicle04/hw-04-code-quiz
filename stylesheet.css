@@ -1,3 +1,8 @@
+.container {
+  width: 50%;
+  height: 50%;
+}
+
 #timer {
   color: purple;
 }
@@ -8,4 +13,21 @@
 
 h1 {
   text-align: center;
+}
+
+.buttonCentered {
+  display: flex;
+  justify-content: center;
+}
+
+.btn.btn-primary {
+  background-color: purple;
+}
+
+#questionBlock {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: justify;
+  text-justify: inter-cluster;
 }
